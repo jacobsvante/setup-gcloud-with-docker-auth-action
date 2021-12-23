@@ -4,9 +4,6 @@ inputs:
   gcp-credentials-json:
     description: The Google Cloud JSON service account key to use for authentication
     required: true
-  gcp-project-id:
-    description: The GCP project for which to set up gcloud CLI
-    required: true
 runs:
   using: composite
   steps:
@@ -17,7 +14,7 @@ runs:
     - name: Setup gcloud CLI
       uses: google-github-actions/setup-gcloud@v0.3.0
       with:
-        project_id: ${{ inputs.gcp-project-id }}
+        project_id: ${{ steps.auth.outputs.project_id }}
         export_default_credentials: true
     - name: Configure Google Cloud as auth provider for docker
       shell: bash
