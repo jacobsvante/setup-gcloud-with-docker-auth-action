@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.2.0](https://www.github.com/jacobsvante/setup-gcloud-with-docker-auth-action/compare/v0.1.1...v0.2.0) (2021-12-23)
+
+
+### Features
+
+* Use project ID from auth step ([40290cf](https://www.github.com/jacobsvante/setup-gcloud-with-docker-auth-action/commit/40290cf4bbb19880f1eba9a441a170ce9e10392b))
+
 ### [0.1.1](https://www.github.com/jacobsvante/setup-gcloud-with-docker-auth-action/compare/v0.1.0...v0.1.1) (2021-12-23)
 
 
