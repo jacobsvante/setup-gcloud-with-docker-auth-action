@@ -1,5 +1,12 @@
 # Changelog
 
+### [0.2.1](https://www.github.com/jacobsvante/setup-gcloud-with-docker-auth-action/compare/v0.2.0...v0.2.1) (2021-12-23)
+
+
+### Bug Fixes
+
+* Remove export_default_credentials ([2543bf3](https://www.github.com/jacobsvante/setup-gcloud-with-docker-auth-action/commit/2543bf35d66ffbad75615efb6f83938de2fa9616))
+
 ## [0.2.0](https://www.github.com/jacobsvante/setup-gcloud-with-docker-auth-action/compare/v0.1.1...v0.2.0) (2021-12-23)
 
 
