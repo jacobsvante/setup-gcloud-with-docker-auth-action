@@ -20,4 +20,5 @@ runs:
         project_id: ${{ inputs.gcp-project-id }}
         export_default_credentials: true
     - name: Configure Google Cloud as auth provider for docker
+      shell: bash
       run: gcloud --quiet auth configure-docker
